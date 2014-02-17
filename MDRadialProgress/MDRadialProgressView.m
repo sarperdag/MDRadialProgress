@@ -106,6 +106,10 @@
     });
 }
 
+- (void)setShowsLabel:(BOOL)showsLabel {
+    _label.hidden = !showsLabel;
+}
+
 #pragma mark - Drawing
 
 - (void)drawRect:(CGRect)rect
